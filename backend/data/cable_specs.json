@@ -1,0 +1,22 @@
+{
+  "array_cables": {
+    "33kV": [
+      {"cross_section_mm2": 95,  "voltage_kv": 33, "current_rating_amps": 300, "resistance_ohm_km": 0.247, "cost_usd_km": 250000},
+      {"cross_section_mm2": 150, "voltage_kv": 33, "current_rating_amps": 380, "resistance_ohm_km": 0.160, "cost_usd_km": 320000},
+      {"cross_section_mm2": 240, "voltage_kv": 33, "current_rating_amps": 460, "resistance_ohm_km": 0.100, "cost_usd_km": 420000},
+      {"cross_section_mm2": 400, "voltage_kv": 33, "current_rating_amps": 570, "resistance_ohm_km": 0.060, "cost_usd_km": 560000}
+    ],
+    "66kV": [
+      {"cross_section_mm2": 95,  "voltage_kv": 66, "current_rating_amps": 345, "resistance_ohm_km": 0.247, "cost_usd_km": 310000},
+      {"cross_section_mm2": 150, "voltage_kv": 66, "current_rating_amps": 437, "resistance_ohm_km": 0.160, "cost_usd_km": 390000},
+      {"cross_section_mm2": 240, "voltage_kv": 66, "current_rating_amps": 529, "resistance_ohm_km": 0.100, "cost_usd_km": 500000},
+      {"cross_section_mm2": 400, "voltage_kv": 66, "current_rating_amps": 655, "resistance_ohm_km": 0.060, "cost_usd_km": 660000}
+    ]
+  },
+  "export_cables": {
+    "HVAC_132kV": {"cost_usd_km": 900000,  "losses_pct_per_100km": 2.5, "max_capacity_mw": 200},
+    "HVAC_220kV": {"cost_usd_km": 1200000, "losses_pct_per_100km": 2.0, "max_capacity_mw": 400},
+    "HVDC_320kV": {"cost_usd_km": 1500000, "losses_pct_per_100km": 0.7, "converter_station_musd": 180, "max_capacity_mw": 1000},
+    "HVDC_525kV": {"cost_usd_km": 2200000, "losses_pct_per_100km": 0.6, "converter_station_musd": 250, "max_capacity_mw": 2000}
+  }
+}

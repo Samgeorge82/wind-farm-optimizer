@@ -1,0 +1,454 @@
+INFO:     Will watch for changes in these directories: ['C:\\Users\\vsamg\\OneDrive\\Desktop\\Claude code\\wind-farm-optimizer\\backend']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [31452] using StatReload
+INFO:     Started server process [13456]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:54832 - "GET /api/turbines/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56759 - "POST /api/wind/fetch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53846 - "GET /api/turbines/ HTTP/1.1" 200 OK
+C:\Users\vsamg\AppData\Local\Programs\Python\Python314\Lib\site-packages\pydantic\type_adapter.py:605: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[3.8362918785566755, 55.629961518805715], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[np.float64(3.83629187855...t64(55.629961518805715)], input_type=list])
+  return self.serializer.to_python(
+INFO:     127.0.0.1:51087 - "POST /api/electrical/build HTTP/1.1" 200 OK
+C:\Users\vsamg\AppData\Local\Programs\Python\Python314\Lib\site-packages\pydantic\type_adapter.py:605: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.042973960748833, 55.608252490722656], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[np.float64(4.01019117631...at64(55.63342820507463)], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[3.981175331521923, 55.67179498967508], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.059453595209327, 55.67992408627168], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.059453595209327, 55.67992408627168], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.124315061932103, 55.58576287343819], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.124315061932103, 55.58576287343819], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.124315061932103, 55.58576287343819], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.124315061932103, 55.58576287343819], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.0989089588054926, 55.62144180733676], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.0989089588054926, 55.62144180733676], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.068380063875444, 55.64274871018969], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.068380063875444, 55.64274871018969], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.014134600442949, 55.650883840915505], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.014134600442949, 55.650883840915505], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[np.float64(4.01019117631...at64(55.63342820507463)], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[3.8362918785566755, 55.629961518805715], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[3.8864174333740262, 55.65049649205697], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[3.8864174333740262, 55.65049649205697], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[3.9248699137818974, 55.619496166750956], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[3.9248699137818974, 55.619496166750956], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[3.9797973810653846, 55.600462852562714], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[3.9797973810653846, 55.600462852562714], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[3.9777420743426495, 55.636161890393645], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[3.9777420743426495, 55.636161890393645], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[np.float64(4.01019117631...at64(55.63342820507463)], input_type=list])
+  return self.serializer.to_python(
+INFO:     127.0.0.1:64692 - "POST /api/electrical/build HTTP/1.1" 200 OK
+C:\Users\vsamg\AppData\Local\Programs\Python\Python314\Lib\site-packages\pydantic\type_adapter.py:605: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.042973960748833, 55.608252490722656], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[np.float64(4.02166108229...t64(55.632183802420066)], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.124315061932103, 55.58576287343819], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.111955336086713, 55.560535363208665], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.111955336086713, 55.560535363208665], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.195726811260961, 55.53529164405577], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.195726811260961, 55.53529164405577], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.216010330065606, 55.56712961201648], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.216010330065606, 55.56712961201648], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.1651981238123845, 55.58071338922142], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.1651981238123845, 55.58071338922142], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.124315061932103, 55.58576287343819], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.124315061932103, 55.58576287343819], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.0989089588054926, 55.62144180733676], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.0989089588054926, 55.62144180733676], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.068380063875444, 55.64274871018969], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.068380063875444, 55.64274871018969], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[np.float64(4.02166108229...t64(55.632183802420066)], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.058080499819097, 55.70546380377471], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.12399903766111, 55.669474206224805], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.12399903766111, 55.669474206224805], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.059453595209327, 55.67992408627168], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.059453595209327, 55.67992408627168], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.00040177920733, 55.68727965258692], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.00040177920733, 55.68727965258692], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[3.981175331521923, 55.67179498967508], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[3.981175331521923, 55.67179498967508], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.014134600442949, 55.650883840915505], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.014134600442949, 55.650883840915505], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[np.float64(4.02166108229...t64(55.632183802420066)], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[3.7868531826566265, 55.666763971219616], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[3.7868531826566265, 55.666763971219616], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[3.7868531826566265, 55.666763971219616], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[3.8362918785566755, 55.629961518805715], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[3.8362918785566755, 55.629961518805715], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[3.9035839267518617, 55.668699872520314], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[3.9035839267518617, 55.668699872520314], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[3.8864174333740262, 55.65049649205697], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[3.8864174333740262, 55.65049649205697], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[3.9248699137818974, 55.619496166750956], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[3.9248699137818974, 55.619496166750956], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.0075843178368675, 55.57839035433611], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.0075843178368675, 55.57839035433611], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[3.9797973810653846, 55.600462852562714], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[3.9797973810653846, 55.600462852562714], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[np.float64(4.02166108229...t64(55.632183802420066)], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[3.9777420743426495, 55.636161890393645], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[np.float64(4.02166108229...t64(55.632183802420066)], input_type=list])
+  return self.serializer.to_python(
+INFO:     127.0.0.1:53620 - "POST /api/electrical/build HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54474 - "POST /api/layout/evaluate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58815 - "POST /api/layout/optimize HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61515 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62809 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58514 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64481 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54703 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56381 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58691 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65177 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53017 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64930 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59135 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59918 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53245 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54773 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51031 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61041 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59558 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56088 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51177 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62043 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61775 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59465 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64367 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57933 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54417 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56672 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54384 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55659 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54512 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63750 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52037 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62740 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52671 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61193 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59891 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51344 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64651 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51170 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57881 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57084 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62343 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51569 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58054 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52844 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52878 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61442 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59019 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56215 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54684 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57803 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54373 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55199 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58070 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50307 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64568 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56946 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51792 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56818 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52887 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56097 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53202 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55477 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52732 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57975 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56137 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50851 - "GET /api/layout/jobs/6c2b59d6-842c-4605-88e2-830c19bf36a8 HTTP/1.1" 200 OK
+C:\Users\vsamg\AppData\Local\Programs\Python\Python314\Lib\site-packages\pydantic\type_adapter.py:605: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.356777799540888, 55.44227305728063], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.348623630295308, 55.4494472909249], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.348623630295308, 55.4494472909249], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.3334749164674955, 55.44953739024576], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.3334749164674955, 55.44953739024576], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.325615677894117, 55.45665150127902], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.325615677894117, 55.45665150127902], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[np.float64(4.32861859258...at64(55.46053018543681)], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.37788979047494, 55.438319084800895], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.370890842731556, 55.445824594262476], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.370890842731556, 55.445824594262476], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.3639292369478415, 55.453316194264815], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.3639292369478415, 55.453316194264815], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.347854688719557, 55.46836428959976], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.347854688719557, 55.46836428959976], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.35515531868532, 55.46049808098026], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.35515531868532, 55.46049808098026], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.341200631377648, 55.45703611788869], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.341200631377648, 55.45703611788869], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[np.float64(4.32861859258...at64(55.46053018543681)], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.310671415301824, 55.45680644603571], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.287099228963242, 55.46407801389222], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.287099228963242, 55.46407801389222], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.3027871010028464, 55.46414243751654], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.3027871010028464, 55.46414243751654], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.317912620652418, 55.46412510268629], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.317912620652418, 55.46412510268629], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[np.float64(4.32861859258...at64(55.46053018543681)], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.264990907450163, 55.475205792697345], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.280059682620092, 55.475274242075265], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.280059682620092, 55.475274242075265], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.29497811070518, 55.475606431294295], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.29497811070518, 55.475606431294295], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.310449573329561, 55.47509755382213], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.310449573329561, 55.47509755382213], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.325916523804421, 55.475181438165485], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.325916523804421, 55.475181438165485], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.333080774203974, 55.46453288109672], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.333080774203974, 55.46453288109672], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[np.float64(4.32861859258...at64(55.46053018543681)], input_type=list])
+  return self.serializer.to_python(
+INFO:     127.0.0.1:53732 - "POST /api/electrical/build HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62422 - "POST /api/wind/fetch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62425 - "GET /api/turbines/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59413 - "POST /api/wind/fetch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50133 - "GET /api/turbines/ HTTP/1.1" 200 OK
+C:\Users\vsamg\AppData\Local\Programs\Python\Python314\Lib\site-packages\pydantic\type_adapter.py:605: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.858714331181019, 55.83294396014045], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.851847816822473, 55.79822951760086], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.851847816822473, 55.79822951760086], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.851847816822473, 55.751895409204494], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.851847816822473, 55.751895409204494], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.851847816822473, 55.751895409204494], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.851847816822473, 55.751895409204494], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.87382066276981, 55.78587914101257], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.87382066276981, 55.78587914101257], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.92188626327963, 55.802088207212506], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.92188626327963, 55.802088207212506], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[np.float64(4.92993782803...at64(55.77900168162544)], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.931499383381578, 55.744940541357], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.947979017842111, 55.7681186130637], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.947979017842111, 55.7681186130637], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[np.float64(4.92993782803...at64(55.77900168162544)], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.1210151796774115, 55.76271162833456], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.052350036091956, 55.751895409204494], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.052350036091956, 55.751895409204494], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.007031041325579, 55.792826709707334], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.007031041325579, 55.792826709707334], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.963085349430903, 55.792826709707334], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.963085349430903, 55.792826709707334], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[np.float64(4.92993782803...at64(55.77900168162544)], input_type=list])
+  return self.serializer.to_python(
+INFO:     127.0.0.1:58882 - "POST /api/electrical/build HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65532 - "POST /api/foundation/assess HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60349 - "POST /api/marine/assess HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51627 - "POST /api/layout/optimize HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54435 - "GET /api/layout/jobs/04cbe023-aec9-4dc5-bd1a-6488641454d8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56977 - "GET /api/layout/jobs/04cbe023-aec9-4dc5-bd1a-6488641454d8 HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'models\layout.py'. Reloading...
+ INFO:     127.0.0.1:53721 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63462 - "GET /turbines/ HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62467 - "GET /turbines/ HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62469 - "GET /turbines/ HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62471 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49834 - "GET /api/turbines/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50864 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57068 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55717 - "POST /api/layout/optimize HTTP/1.1" 422 Unprocessable Content
+INFO:     127.0.0.1:55719 - "POST /api/layout/optimize HTTP/1.1" 422 Unprocessable Content
+INFO:     127.0.0.1:63098 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54053 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64446 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63980 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56862 - "POST /api/wind/fetch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56865 - "GET /api/turbines/ HTTP/1.1" 200 OK
+C:\Users\vsamg\AppData\Local\Programs\Python\Python314\Lib\site-packages\pydantic\type_adapter.py:605: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.14162963770648, 55.570725248485616], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.251494863354242, 55.54743587764925], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.251494863354242, 55.54743587764925], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.246001651867399, 55.57228367743993], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.246001651867399, 55.57228367743993], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.202055959972723, 55.61572952436897], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.202055959972723, 55.61572952436897], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.188322931255632, 55.779767710467915], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.188322931255632, 55.779767710467915], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.221282200176619, 55.72722667113774], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.221282200176619, 55.72722667113774], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.482209745801311, 55.818355689999834], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.482209745801311, 55.818355689999834], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.333893035656751, 55.78440028719865], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.333893035656751, 55.78440028719865], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[np.float64(5.14843380585...at64(55.67105399201169)], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.358612487347529, 55.750415265659626], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.317413401196257, 55.691644061107574], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.317413401196257, 55.691644061107574], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.221281204265584, 55.65602314827132], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.221281204265584, 55.65602314827132], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[np.float64(5.14843380585...at64(55.67105399201169)], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.853236034647646, 55.70092372319667], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.930140995463308, 55.660670425631906], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.930140995463308, 55.660670425631906], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.96859347587118, 55.69318592160098], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[4.96859347587118, 55.69318592160098], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.064724676890777, 55.73031340199922], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.064724676890777, 55.73031340199922], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.040006221111071, 55.63278437728581], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.040006221111071, 55.63278437728581], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.075711099864466, 55.65602314827132], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.075711099864466, 55.65602314827132], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.086697522838115, 55.666865937256965], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.086697522838115, 55.666865937256965], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[np.float64(5.14843380585...at64(55.67105399201169)], input_type=list])
+  return self.serializer.to_python(
+INFO:     127.0.0.1:59994 - "POST /api/electrical/build HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65272 - "POST /api/electrical/build HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62686 - "POST /api/electrical/build HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53606 - "POST /api/foundation/assess HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61101 - "POST /api/marine/assess HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65286 - "POST /api/layout/optimize HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65288 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63528 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63362 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53231 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59265 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55073 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50711 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50396 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52184 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65470 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49200 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53056 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49972 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64701 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55997 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53573 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64609 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53450 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50788 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64731 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55312 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58147 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59422 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57911 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57409 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53444 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60062 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58022 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60568 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53318 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58984 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51628 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56150 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61114 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61624 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51567 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53045 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60757 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59146 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50535 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51769 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51080 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49357 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65240 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58971 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51425 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57518 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55671 - "GET /api/layout/jobs/12cfcd1e-5200-48b5-9629-30b1710359ae HTTP/1.1" 200 OK
+C:\Users\vsamg\AppData\Local\Programs\Python\Python314\Lib\site-packages\pydantic\type_adapter.py:605: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.247685765768042, 55.4499702677947], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.255215692802726, 55.45732247356381], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.255215692802726, 55.45732247356381], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.240155838733357, 55.45732247356381], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.240155838733357, 55.45732247356381], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.247685765768042, 55.46467467933293], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.247685765768042, 55.46467467933293], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.232625911698673, 55.46467467933293], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.232625911698673, 55.46467467933293], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.217566057629304, 55.46467467933293], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.217566057629304, 55.46467467933293], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.210036130594619, 55.472026885102046], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.210036130594619, 55.472026885102046], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.225095984663988, 55.472026885102046], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.225095984663988, 55.472026885102046], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[np.float64(5.22725800161...t64(55.473638645224035)], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.270275546872095, 55.47937909087116], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.255215692802726, 55.472026885102046], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.255215692802726, 55.472026885102046], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.240155838733357, 55.472026885102046], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.240155838733357, 55.472026885102046], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[np.float64(5.22725800161...t64(55.473638645224035)], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.225095984663988, 55.490976094620216], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.210036130594619, 55.490976094620216], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.210036130594619, 55.490976094620216], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.19497627652525, 55.490976094620216], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.19497627652525, 55.490976094620216], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.179916422455881, 55.490976094620216], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.179916422455881, 55.490976094620216], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.187446349490566, 55.47937909087116], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.187446349490566, 55.47937909087116], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.202506203559935, 55.47937909087116], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.202506203559935, 55.47937909087116], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.217566057629304, 55.47937909087116], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.217566057629304, 55.47937909087116], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[np.float64(5.22725800161...t64(55.473638645224035)], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.247685765768042, 55.4836238888511], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.232625911698673, 55.47937909087116], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[5.232625911698673, 55.47937909087116], input_type=list])
+  PydanticSerializationUnexpectedValue(Expected `tuple[float, float]` - serialized value may not be as expected [field_name='route_coords', input_value=[np.float64(5.22725800161...t64(55.473638645224035)], input_type=list])
+  return self.serializer.to_python(
+INFO:     127.0.0.1:64306 - "POST /api/electrical/build HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57802 - "POST /api/layout/optimize HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54432 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63392 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62241 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57672 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59795 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59866 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65398 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49673 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52276 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55566 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64037 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60160 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53681 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61812 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51124 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58468 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49810 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62880 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49677 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60428 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60408 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58655 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49673 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56175 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51754 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58367 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52297 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52097 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52781 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51116 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53504 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63891 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62836 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49675 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59651 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62107 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60219 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62164 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58957 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58994 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52698 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53499 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57730 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55028 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56389 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63152 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56211 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55049 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61409 - "GET /api/layout/jobs/eb45d6e3-bfe8-48fa-8d42-80f79bc1fef5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54729 - "POST /api/electrical/build HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59070 - "POST /api/financial/calculate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55663 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59210 - "POST /api/layout/wake-field HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60473 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53961 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51359 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51234 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51236 - "POST /api/layout/wake-field HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:63457 - "POST /api/layout/wake-field HTTP/1.1" 404 Not Found

@@ -1,0 +1,32 @@
+{
+  "monopile": {
+    "steel_price_usd_tonne": 4500,
+    "installation_day_rate_usd": 250000,
+    "base_install_days": 2.5,
+    "depth_install_factor": 0.04,
+    "mass_coeff": 0.0333,
+    "mass_depth_exp": 0.80,
+    "mass_diameter_exp": 1.5
+  },
+  "jacket": {
+    "steel_price_usd_tonne": 6000,
+    "installation_cost_musd": 3.5,
+    "mass_coeff": 0.054,
+    "mass_depth_exp": 0.90,
+    "mass_diameter_exp": 1.0
+  },
+  "floating_semi_sub": {
+    "base_cost_musd": 12.0,
+    "power_coeff_musd_mw2": 0.08,
+    "mooring_base_musd": 2.5,
+    "mooring_depth_coeff": 0.02,
+    "installation_musd": 4.0
+  },
+  "floating_spar": {
+    "base_cost_musd": 18.0,
+    "power_coeff_musd_mw2": 0.10,
+    "mooring_base_musd": 3.5,
+    "mooring_depth_coeff": 0.025,
+    "installation_musd": 6.0
+  }
+}

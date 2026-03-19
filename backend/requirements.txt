@@ -1,0 +1,17 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.7.4
+pydantic-settings==2.3.4
+
+# Scientific computing
+numpy==1.26.4
+scipy==1.13.1
+shapely==2.0.6
+
+# Reporting
+reportlab==4.2.2
+openpyxl==3.1.5
+
+# Dev
+pytest==8.3.2
+httpx==0.27.2
