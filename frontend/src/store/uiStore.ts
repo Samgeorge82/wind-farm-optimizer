@@ -41,7 +41,7 @@ export const useUIStore = create<UIState>()(
     wakeModelType: 'jensen',
     showCableLayer: true,
     showDepthLayer: false,
-    showWakeHeatmap: false,
+    showWakeHeatmap: true,
     wakeFieldImage: null,
     wakeWindDirection: 270,
     wakeWindSpeed: 10,
