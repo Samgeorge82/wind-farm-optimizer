@@ -1,6 +1,6 @@
 # Offshore Wind Farm Development Platform
 
-A comprehensive wind farm layout optimization and financial analysis tool — everything a wind energy company needs in one platform.
+A comprehensive wind farm layout optimization and financial analysis tool 
 
 ## Features
 
